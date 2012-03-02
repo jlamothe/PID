@@ -30,7 +30,7 @@ PID::PID(double p, double i, double d, double b, bool r)
     i_factor = i;
     d_factor = d;
     bias = b;
-    min_i = 0;
+    min_i = -100;
     max_i = 100;
     min_out = 0;
     max_out = 100;
